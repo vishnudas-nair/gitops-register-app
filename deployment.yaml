@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: vishnudasnair619/argocd-maven:${DOCKER_TAG}
+          image: vishnudasnair619/argocd-maven:v2
           resources:
             limits:
               memory: "256Mi"
